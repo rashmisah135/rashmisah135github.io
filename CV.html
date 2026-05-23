@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rashmi Sah | Geomatics Engineer</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            scroll-behavior:smooth;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background:#eef2f7;
+            color:#1e293b;
+        }
+
+        .container{
+            width:90%;
+            max-width:1200px;
+            margin:auto;
+        }
+
+        header{
+            background:linear-gradient(135deg,#0f172a,#1e3a8a);
+            color:white;
+            padding:80px 20px;
+            text-align:center;
+        }
+
+        .profile-img{
+            width:180px;
+            height:180px;
+            border-radius:50%;
+            object-fit:cover;
+            border:5px solid white;
+            margin-bottom:20px;
+        }
+
+        header h1{
+            font-size:55px;
+            margin-bottom:15px;
+        }
+
+        header h2{
+            font-size:24px;
+            font-weight:normal;
+            margin-bottom:20px;
+        }
+
+        header p{
+            font-size:18px;
+            margin-bottom:10px;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:20px;
+            padding:12px 28px;
+            background:white;
+            color:#1e3a8a;
+            text-decoration:none;
+            border-radius:8px;
+            font-weight:bold;
+        }
+
+        section{
+            padding:70px 0;
+        }
+
+        .section-title{
+            font-size:38px;
+            margin-bottom:35px;
+            color:#1e3a8a;
+            text-align:center;
+        }
+
+        .card{
+            background:white;
+            padding:30px;
+            border-radius:15px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.08);
+            margin-bottom:25px;
+        }
+
+        .card h3{
+            margin-bottom:15px;
+            color:#0f172a;
+        }
+
+        .about p{
+            line-height:1.9;
+            font-size:17px;
+            text-align:justify;
+        }
+
+        .skills-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+        }
+
+        .skill-box{
+            background:white;
+            padding:25px;
+            border-radius:15px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .skill-box h3{
+            margin-bottom:15px;
+            color:#1e3a8a;
+        }
+
+        .skill-box ul{
+            margin-left:20px;
+        }
+
+        .skill-box li{
+            margin-bottom:10px;
+        }
+
+        .projects{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+            gap:25px;
+        }
+
+        .project-card{
+            background:white;
+            padding:25px;
+            border-radius:15px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.08);
+            transition:0.3s;
+        }
+
+        .project-card:hover{
+            transform:translateY(-5px);
+        }
+
+        .project-card h3{
+            color:#1e3a8a;
+            margin-bottom:15px;
+        }
+
+        .project-card p{
+            line-height:1.7;
+        }
+
+        .timeline{
+            border-left:4px solid #1e3a8a;
+            padding-left:20px;
+        }
+
+        .timeline-item{
+            margin-bottom:25px;
+        }
+
+        .timeline-item h3{
+            color:#1e3a8a;
+        }
+
+        .contact{
+            text-align:center;
+        }
+
+        .contact p{
+            margin-bottom:10px;
+            font-size:18px;
+        }
+
+        footer{
+            background:#0f172a;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="container">
+
+            <!-- Add your image here -->
+            <img src="rashmi.jpeg" alt="Rashmi Sah" class="profile-img">
+            <h1>Rashmi Sah</h1>
+
+            <h2>Geomatics Engineering Student</h2>
+
+            <p>Kathmandu University | 2022 - 2027</p>
+
+            <p>Kathmandu, Nepal</p>
+
+            <p>rashmisah135@gmail.com</p>
+
+            <a href="#contact" class="btn">Contact Me</a>
+
+        </div>
+
+    </header>
+
+    <!-- ABOUT -->
+
+    <section class="about">
+
+        <div class="container">
+
+            <h2 class="section-title">About Me</h2>
+
+            <div class="card">
+
+                <p>
+
+                    I am currently pursuing Bachelor's degree in Geomatics Engineering
+                    at Kathmandu University. I have strong interest in GIS,
+                    Remote Sensing, Spatial Analysis, Photogrammetry,
+                    and Disaster Mapping. I enjoy working on research-oriented
+                    projects involving spatial technologies and decision-making
+                    approaches. I have experience in thematic mapping,
+                    flood susceptibility analysis, and 3D modelling using
+                    GIS and Remote Sensing techniques.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- EDUCATION -->
+
+    <section>
+
+        <div class="container">
+
+            <h2 class="section-title">Education</h2>
+
+            <div class="card">
+
+                <h3>Bachelor in Geomatics Engineering</h3>
+
+                <p>Kathmandu University</p>
+
+                <p>Currently Studying (2022 – 2027)</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section>
+
+        <div class="container">
+
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-box">
+
+                    <h3>Technical Skills</h3>
+
+                    <ul>
+                        <li>ArcGIS</li>
+                        <li>QGIS</li>
+                        <li>Remote Sensing</li>
+                        <li>Photogrammetry</li>
+                        <li>Spatial Analysis</li>
+                        <li>AutoCAD</li>
+                        <li>Web GIS</li>
+                    </ul>
+
+                </div>
+
+                <div class="skill-box">
+
+                    <h3>Software Proficiency</h3>
+
+                    <ul>
+                        <li>Microsoft Word</li>
+                        <li>Microsoft Excel</li>
+                        <li>Microsoft PowerPoint</li>
+                        <li>Google Earth Engine</li>
+                    </ul>
+
+                </div>
+
+                <div class="skill-box">
+
+                    <h3>Programming Languages</h3>
+
+                    <ul>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section>
+
+        <div class="container">
+
+            <h2 class="section-title">Academic Projects</h2>
+
+            <div class="projects">
+
+                <div class="project-card">
+
+                    <h3>3D Modelling of Kathmandu University Central Library</h3>
+
+                    <p>
+                        Developed a 3D model of Kathmandu University Central Library
+                        using spatial and visualization techniques for structural
+                        representation and analysis.
+                    </p>
+
+                </div>
+
+                <div class="project-card">
+
+                    <h3>Flood Susceptibility of Kavrepalanchok District Using GIS and AHP</h3>
+
+                    <p>
+                        Performed flood susceptibility analysis using GIS and
+                        Analytical Hierarchy Process (AHP) integrating multiple
+                        thematic layers and spatial decision-making methods.
+                    </p>
+
+                </div>
+
+                <div class="project-card">
+
+                    <h3>Leveraging Spatial Technology to Enhance the Land Market in Nepal</h3>
+
+                    <p>
+                        Studied the impacts of regulations on land markets and explored
+                        how spatial technologies can improve land management systems.
+                    </p>
+
+                </div>
+
+                <div class="project-card">
+
+                    <h3>Thematic Mapping Project</h3>
+
+                    <p>
+                        Prepared multiple thematic maps of different regions of Nepal
+                        using GIS tools and cartographic techniques.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ACTIVITIES -->
+
+    <section>
+
+        <div class="container">
+
+            <h2 class="section-title">Additional Activities</h2>
+
+            <div class="card">
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+
+                        <h3>Member, NEPGEOM</h3>
+
+                        <p>
+                            Participated in geomatics-related academic and technical
+                            activities and events.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CERTIFICATIONS -->
+
+    <section>
+
+        <div class="container">
+
+            <h2 class="section-title">Certifications</h2>
+
+            <div class="card">
+
+                <ul>
+
+                    <li>
+                        Workshop on Basic Remote Sensing and Google Earth Engine
+                    </li>
+
+                    <li>
+                        Certificate of Participation – TOMTOM-GES Mapping Week
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+
+        <div class="container">
+
+            <h2 class="section-title">Contact</h2>
+
+            <div class="card contact">
+
+                <p>Email: rashmisah135@gmail.com</p>
+
+                <p>Kathmandu, Nepal</p>
+
+                <p>Kathmandu University</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>© 2026 Rashmi Sah | Portfolio CV Website</p>
+
+    </footer>
+
+</body>
+
+</html>
